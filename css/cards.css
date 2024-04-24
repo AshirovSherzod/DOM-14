@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(69, 79, 91);
+    color: white;
+}
+
+.nav__bottom {
+    padding: 10px;
+}
+
+.nav__bottom__right ul,
+.nav__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__bottom__right ul{
+    gap: 20px;
+}
